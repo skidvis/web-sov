@@ -1,0 +1,104 @@
+body{
+    background-color: black;
+}
+
+.green, .nature{
+    background-color: #30ff2f;
+}
+
+.yellow, .electro{
+    background-color: #ffe52f;
+}
+
+.blue, .hydro{
+    background-color: #007bff;
+}
+
+.purple, .aether{
+    background-color: #a248db;
+}
+
+@font-face {
+    font-family: "ActionMan";
+    src: url("/fonts/Action-Man/Action_Man_Bold.ttf");
+}
+
+.comic{
+    font-family: "ActionMan", serif;
+    font-size: 2em;
+    padding:0;
+    margin:0;
+}
+
+.image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 650px;
+}
+
+.image-1{
+    background-image: url("/von/von-asis-cor-gantaa.png");
+}
+
+.image-2{
+    background-image: url("/von/2.png");
+}
+
+.image-3{
+    background-image: url("/von/3.png");
+}
+
+.image-4{
+    background-image: url("/von/4.png");
+}
+
+.title {
+    font-family: "ActionMan", serif;
+    font-size: 60px;
+    padding: 0 10px;
+    margin: 0;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    width: 50%;
+}
+
+.content {
+    background-color: white;
+    min-height: 1000px;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+}
+
+.navbar{
+    list-style-type: none;
+    width:25%;    
+    float: right;
+}
+
+.sidebar{
+}
+
+.sidebar ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    background-color: white;
+    margin-top: 25px;
+    box-shadow: 5px 5px 0px 0px rgb(0 0 0/25%);
+    text-align: center;
+    font-weight: bold;
+}
+
+.sidebar li:first-child{
+    color: white;
+    padding: 3px 0px;
+}
+
+.sidebar li:last-child{
+    color: white;
+    padding: 10px 0px;
+}
