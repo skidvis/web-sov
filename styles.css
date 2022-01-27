@@ -2,6 +2,10 @@ body{
     background-color: black;
 }
 
+a{
+    text-decoration: none;
+}
+
 .green, .nature{
     background-color: #30ff2f;
 }
@@ -18,16 +22,51 @@ body{
     background-color: #a248db;
 }
 
+.green-text, .nature-text{
+    color: #30ff2f;
+}
+
+.yellow-text, .electro-text{
+    color: #ffe52f;
+}
+
+.blue-text, .hydro-text{
+    color: #007bff;
+}
+
+.purple-text, .aether-text{
+    color: #a248db;
+}
+
 @font-face {
     font-family: "ActionMan";
     src: url("/fonts/Action-Man/Action_Man_Bold.ttf");
 }
 
+@font-face {
+    font-family: "ArchRival";
+    src: url("/fonts/SF-Arch-Rival/SF_Arch_Rival_Bold.ttf");
+}
+
+@font-face {
+    font-family: "Komika";
+    src: url("/fonts/Komika-Axis/KOMIKAX_.ttf");
+}
+
 .comic{
-    font-family: "ActionMan", serif;
+    font-family: "ArchRival", serif;
     font-size: 2em;
     padding:0;
     margin:0;
+}
+
+.mainbar {
+    margin: auto;
+    background-color: #373737;
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+    margin: 50px 0; 
 }
 
 .image{
@@ -54,7 +93,7 @@ body{
 }
 
 .title {
-    font-family: "ActionMan", serif;
+    font-family: "Komika", serif;
     font-size: 60px;
     padding: 0 10px;
     margin: 0;
@@ -73,8 +112,6 @@ body{
 
 .navbar{
     list-style-type: none;
-    width:25%;    
-    float: right;
 }
 
 .sidebar{
