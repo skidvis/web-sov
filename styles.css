@@ -6,6 +6,20 @@ a{
     text-decoration: none;
 }
 
+.subhead {
+    text-align: center;
+    font-family: 'Komika';
+}
+
+.icons{
+    justify-content: space-evenly;
+}
+
+.icons li a{
+    color: black;
+    font-size: 2em;
+}
+
 .green, .nature{
     background-color: #30ff2f;
 }
@@ -53,6 +67,11 @@ a{
     src: url("/fonts/Komika-Axis/KOMIKAX_.ttf");
 }
 
+.actionman{
+    font-family: "ActionMan", sans-serif;
+    font-size: 2em;
+}
+
 .comic{
     font-family: "ArchRival", serif;
     font-size: 2em;
@@ -81,7 +100,8 @@ a{
 }
 
 .image-2{
-    background-image: url("/von/2.png");
+    background-image: url("cards.png");
+    background-size: contain;
 }
 
 .image-3{
@@ -100,7 +120,6 @@ a{
     color: black;
     text-decoration: none;
     display: inline-block;
-    width: 50%;
 }
 
 .content {
