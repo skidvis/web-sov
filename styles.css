@@ -54,17 +54,17 @@ a{
 
 @font-face {
     font-family: "ActionMan";
-    src: url("/fonts/Action-Man/Action_Man_Bold.ttf");
+    src: url("./fonts/Action-Man/Action_Man_Bold.ttf");
 }
 
 @font-face {
     font-family: "ArchRival";
-    src: url("/fonts/SF-Arch-Rival/SF_Arch_Rival_Bold.ttf");
+    src: url("./fonts/SF-Arch-Rival/SF_Arch_Rival_Bold.ttf");
 }
 
 @font-face {
     font-family: "Komika";
-    src: url("/fonts/Komika-Axis/KOMIKAX_.ttf");
+    src: url("./fonts/Komika-Axis/KOMIKAX_.ttf");
 }
 
 .actionman{
@@ -96,20 +96,20 @@ a{
 }
 
 .image-1{
-    background-image: url("/von/von-asis-cor-gantaa.png");
+    background-image: url("./von/von-asis-cor-gantaa.png");
 }
 
 .image-2{
-    background-image: url("cards.png");
+    background-image: url("./cards.png");
     background-size: contain;
 }
 
 .image-3{
-    background-image: url("/von/3.png");
+    background-image: url("./von/3.png");
 }
 
 .image-4{
-    background-image: url("/von/4.png");
+    background-image: url("./von/4.png");
 }
 
 .title {
