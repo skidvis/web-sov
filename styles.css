@@ -102,13 +102,13 @@ ul.comic{
 
 .image{
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     min-height: 650px;
 }
 
 .image-1{
-    background-image: url("./von/von-asis-cor-gantaa.png");
+    background-image: url("./villains/nostep.png");
 }
 
 .image-2{
@@ -117,11 +117,11 @@ ul.comic{
 }
 
 .image-3{
-    background-image: url("./von/3.png");
+    background-image: url("./villains/rhino.png");
 }
 
 .image-4{
-    background-image: url("./von/4.png");
+    background-image: url("./villains/ape.png");
 }
 
 .title {
