@@ -79,6 +79,17 @@ a{
     margin:0;
 }
 
+ul.comic{
+    padding: 0 20px;
+}
+
+.comic li{
+    font-family: "ActionMan";
+    font-size: 1em;
+    list-style-type: disclosure-closed;
+    padding: 15px;
+}
+
 .mainbar {
     margin: auto;
     background-color: #373737;
