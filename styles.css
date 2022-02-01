@@ -21,19 +21,23 @@ a{
 }
 
 .green, .nature{
-    background-color: #30ff2f;
+    background-color: #62cb62;
 }
 
 .yellow, .electro{
-    background-color: #ffe52f;
+    background-color: #cbbd62;
 }
 
 .blue, .hydro{
-    background-color: #007bff;
+    background-color: #407dbf;
 }
 
 .purple, .aether{
-    background-color: #a248db;
+    background-color: #9e5bc8;
+}
+
+.red, .pyro{
+    background-color: #c44f4f;
 }
 
 .green-text, .nature-text{
@@ -122,6 +126,10 @@ ul.comic{
 
 .image-4{
     background-image: url("./leprecaster/5.png");
+}
+
+.image-5{
+    background-image: url("./leprecaster/2.png");
 }
 
 .title {
