@@ -48,7 +48,15 @@ a{
     background-color: #c44f4f;
 }
 
-.green-text, .nature-text{
+.petra{
+    background-color: #b39a41;
+}
+
+.glacia{
+    background-color: #40a8bf;
+}
+
+.green-text, .naturae-text{
     color: #30ff2f;
 }
 
@@ -62,6 +70,14 @@ a{
 
 .purple-text, .aether-text{
     color: #a248db;
+}
+
+.glacia-text{
+    color:#40a8bf;
+}
+
+.petra-text{
+    color:#b39a41
 }
 
 @font-face {
@@ -121,7 +137,7 @@ ul.comic{
 }
 
 .image-1{
-    background-image: url("./leprecaster/duet.png");
+    background-image: url("./leprecaster/1.png");
 }
 
 .image-2{
@@ -134,12 +150,17 @@ ul.comic{
 }
 
 .image-4{
-    background-image: url("./leprecaster/5.png");
+    background-image: url("./leprecaster/3.png");
 }
 
 .image-5{
     background-image: url("./leprecaster/2.png");
 }
+
+.image-6{
+    background-image: url("./leprecaster/5.png");
+}
+
 
 .title {
     font-family: "Komika", serif;
@@ -198,6 +219,7 @@ ul.comic{
     width: 100%;
     height: 100%;
     opacity: .1;
+    pointer-events: none;
 }
 
 .pyro .elimage{
@@ -218,4 +240,16 @@ ul.comic{
 
 .aether .elimage{
     background-image: url('./els/El4.png');
+}
+
+.glacia .elimage{
+    background-image: url('./els/El6.png');
+}
+
+.petra .elimage{
+    background-image: url('./els/El5.png');
+}
+
+.naturae a {
+    color: darkgreen;
 }
