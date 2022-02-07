@@ -164,12 +164,18 @@ ul.comic{
 
 .title {
     font-family: "Komika", serif;
-    font-size: 60px;
+    font-size: 0px;
     padding: 0 10px;
     margin: 0;
     color: black;
     text-decoration: none;
     display: inline-block;
+    background-image: url('./logomark.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 382px;
+    height: 169px;
 }
 
 .content {
