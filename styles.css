@@ -121,6 +121,14 @@ a{
     text-shadow: 4px 4px 0px rgba(0,0,0,1);
 }
 
+.video{
+    padding: 73px;
+    background-image: url('./vidFrame/bottom.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 55.5% 102%;
+}
+
 ul.comic{
     padding: 0 20px;
 }
