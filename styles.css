@@ -72,6 +72,10 @@ a{
     color: #a248db;
 }
 
+.red-text, .pyro-text{
+    color: #c44f4f;
+}
+
 .glacia-text{
     color:#40a8bf;
 }
