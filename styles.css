@@ -1,9 +1,15 @@
 body{
     background-color: black;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 a{
     text-decoration: none;
+}
+
+.nav-item a{
+    font-size: 1.5em;
 }
 
 .subhead {
@@ -97,6 +103,11 @@ a{
 @font-face {
     font-family: "Komika";
     src: url("./fonts/Komika-Axis/KOMIKAX_.ttf");
+}
+
+.deco{
+    font-family: "Komika";
+    font-size: 2em;
 }
 
 .actionman{
