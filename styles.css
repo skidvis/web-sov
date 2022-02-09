@@ -10,6 +10,7 @@ a{
 
 .nav-item a{
     font-size: 1.5em;
+    -webkit-text-stroke: 1px black;
 }
 
 .subhead {
@@ -295,4 +296,15 @@ ul.comic{
 
 .naturae a {
     color: darkgreen;
+    text-shadow: 1px 1px lightgreen;
+}
+
+#vis-avenger{
+    background-image: url('./vis-avengers.jpg');
+    height: 300px;
+    width:300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
 }
