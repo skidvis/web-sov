@@ -8,11 +8,6 @@ a{
     text-decoration: none;
 }
 
-.nav-item a{
-    font-size: 1.5em;
-    -webkit-text-stroke: 1px black;
-}
-
 .subhead {
     text-align: center;
     font-family: 'Komika';
@@ -25,6 +20,8 @@ a{
 .icons li a{
     color: black;
     font-size: 2em;
+    text-shadow: initial;
+    -webkit-text-stroke: initial;
 }
 
 .row{
@@ -63,31 +60,31 @@ a{
     background-color: #40a8bf;
 }
 
-.green-text, .naturae-text{
+.green-text, .naturae-text, .naturae a{
     color: #3db449;
 }
 
-.yellow-text, .electro-text{
+.yellow-text, .electro-text, .electro a{
     color: #cbbd62;
 }
 
-.blue-text, .hydro-text{
+.blue-text, .hydro-text, .hydro a{
     color: #007bff;
 }
 
-.purple-text, .aether-text{
+.purple-text, .aether-text, .aether a{
     color: #a248db;
 }
 
-.red-text, .pyro-text{
+.red-text, .pyro-text, .pyro a{
     color: #c44f4f;
 }
 
-.glacia-text{
+.glacia-text, .glacia a{
     color:#40a8bf;
 }
 
-.petra-text{
+.petra-text, .petra a{
     color:#b39a41
 }
 
@@ -127,14 +124,26 @@ a{
     margin:0;
 }
 
-.komic{
+.navbar a{
     font-family: "Komika", serif;
-    font-size: 2em;
+    font-size: 1.5em;
     padding:0;
     margin:0;
     position: relative;
     top: -4px;
     text-shadow: 4px 4px 0px rgba(0,0,0,1);
+    -webkit-text-stroke: 1px black;
+}
+
+.komic, a {
+    font-family: "Komika", serif;
+    font-size: .75em;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: -1px;
+    text-shadow: 2px 2px 0px rgb(0 0 0);
+    -webkit-text-stroke: 1px black;
 }
 
 .video{
@@ -171,7 +180,7 @@ ul.comic{
     background-size: contain;
     background-position: center;
     min-height: 650px;
-    z-index: 1;
+    z-index: 2;
 }
 
 .image-1{
@@ -227,9 +236,6 @@ ul.comic{
     list-style-type: none;
 }
 
-.sidebar{
-}
-
 .sidebar ul{
     list-style-type: none;
     padding: 0;
@@ -264,6 +270,7 @@ ul.comic{
     height: 100%;
     opacity: .1;
     pointer-events: none;
+    z-index: 0;
 }
 
 .pyro .elimage{
@@ -294,11 +301,6 @@ ul.comic{
     background-image: url('./els/El5.png');
 }
 
-.naturae a {
-    color: darkgreen;
-    text-shadow: 1px 1px lightgreen;
-}
-
 #vis-avenger{
     background-image: url('./vis-avengers.jpg');
     height: 300px;
@@ -307,4 +309,50 @@ ul.comic{
     background-repeat: no-repeat;
     background-position: center;
     margin: auto;
+}
+
+.zebra li:nth-child(even), .zebra li:nth-child(even) span {background-color: rgba(100, 100, 100, .2)}
+
+.cta{
+    font-size: 1.5em;
+    border-radius: 25px;
+    background-color: #fff102;
+    filter: drop-shadow(4px 4px 1px #000);
+}
+
+.cta:hover{
+    color: white;
+}
+
+.row .col-md-5{
+    z-index: 1;
+}
+
+.chart{
+    text-align: center;
+}
+
+.fa-ul{
+    margin: 0;
+}
+
+.fa-icon-ul{
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 1.4em;
+    position: relative;
+}
+
+.fa-icon-ul li{
+    overflow: auto;
+}
+
+.fa-icon {
+    padding: 0 0.5em;
+    position: absolute;
+    left: -0.5em;
+}
+
+.sub-li{
+    
 }
